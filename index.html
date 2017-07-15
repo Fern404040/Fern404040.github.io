@@ -8,8 +8,7 @@
     /*全*/
     *{
       margin: 0;
-      padding: 0;
-      list-style: none;
+      /*padding: 0;*/
       letter-spacing: .05em;
     }
 
@@ -26,19 +25,28 @@
 /*header設定*/
     header{
       box-sizing: border-box;
-      color: black;
-      background: rgba(157, 253, 225, 0.81) url("images/me.jpg") center no-repeat;
-      background-size: cover;
-      padding: 30px 20px;
-      height: 100vw;
+      
+      background: rgba(157, 253, 225, 0.81) url("images/封面圖片.jpg") center top -12vw no-repeat;
+      background-size: 100%;
+      padding: 2em;
+      height: 48vw;
 
-      font-size:.8em;
+      font-size: 1.5em;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 10px black;           
     }
 
     h1{
+      display: inline;
       font-size: 1.2em;
-      margin-left: 20px;
+      /*in-left: 20px;*/
       margin-top: 6px;
+    }
+
+    h2{
+      text-align: center;
+      margin-top: 1em;
     }
 
     p{
@@ -58,16 +66,152 @@
 </head>
 
 <!-- 終於到網站本體啦 -->
-<!-- 終於到網站本體啦 -->
-<!-- 終於到網站本體啦 -->
 <body>
   <!-- 第1部分: 圖片+大名 -->
   <header>    
-    <p>(未完成)歡迎來到我的網站，我是</p>
-    <h1>徐士林Julie Hsu</h1>
+    <div>(未完成)</div>
+    <div>歡迎來到 <h1>徐士林</h1> 的網站！</div>
+    <div>↓</div>
+    <div>Start</div>
   </header>
 
   <p class="intro">今年23歲，不知道要打甚麼所以先這樣XD</p>
+  
+  <h2>Experience</h2>  
+  <ul>
+  <!-- 經歷等等 -->
+    <li>
+      <h3>工作經歷</h3>      
+      <ol>
+        <li>
+          <!-- 第一份工作-->
+          <div>
+            <h4>研究員</h4>
+            <div>2016.07 - 2017.07</div>
+            <div>○○管理顧問</div>
+          </div>
+          <ul>
+            <li>協助客戶撰寫政府補助案的計畫書、與審議過程輔導</li>
+            <li>計畫書內容包含：市場分析、競爭者分析、創新性說明、進度與經費編排…等</li>
+            <li>截至目前已輔導14家廠商</li>
+            <li>截至目前總共獲得360萬政府補助款</li>
+          </ul>          
+        </li>        
+      </ol>
+    </li>
+
+    <!-- 學生經歷 -->
+    <li>
+      <h3>學生實習</h3>
+      <ol>
+        <li>
+          <!-- 第一份實習-->
+          <div>
+            <h4>公關</h4>
+            <div>○○雜誌</div>
+            <div>2016.01 - 2016.04</div>
+          </div>
+          <ul>
+            <li>邀請演講者、洽談異界合作</li>
+            <li>管理Facebook粉絲專頁</li>
+            <li>成功洽談與Uber合作</li>
+          </ul>
+        </li>
+        <li>
+          <!-- 第二份實習-->
+          <div>
+            <h4>PM</h4>
+            <div>○○○○資訊公司</div>
+            <div>2015.12 – 2016.03</div>
+          </div>
+          <ul>
+            <li>陌生開發</li>
+            <li>專案企畫提案</li>            
+          </ul>
+        </li>
+        <li>
+          <!-- 第三份實習-->
+          <div>
+            <h4>實習生</h4>
+            <div>台灣董事學會/種子人才培訓計畫</div>
+            <div>2015.09 – 2016.06</div>
+          </div>
+          <ul>
+            <li>學習企業個案分析</li>
+            <li>團隊個案分析第一名</li>
+            <li>Berloni旗艦店一個月的排班實習</li>
+            <li>協助Berloni線上開店</li>
+            <li>期末成果分享主講人</li>
+          </ul>
+        </li>
+        <li>
+          <!-- 第四份實習-->
+          <div>
+            <h4>計畫成員</h4>
+            <div>台灣微軟/點亮新世代-青年逐夢計畫</div>
+            <div>2013.09-2014.06</div>
+          </div>
+          <ul>
+            <li>與配合廠商進行產業分析</li>
+            <li>廠商設計師微博經營</li>
+            <li>製作宣傳圖、海報</li>
+            <li>結案時小組獲得分校首獎</li>
+          </ul>
+        </li>        
+      </ol>
+    </li>
+
+    <!-- 活動經驗 -->
+    <li>
+      <h3>活動經驗</h3>
+      <ol>
+        <li>
+          <div>
+            <h4>執秘</h4>
+            <div>中央大學資管系/專題發表會</div>
+            <div>2014.10 - 2014.12</div>
+          </div>
+          <ul>
+            <li>帶領8位組長、23位組員</li>
+            <li>協助協調各組業務</li>
+            <li>監督活動流程規劃</li> 
+          </ul>
+        </li>
+        <li>
+          <!-- 第二份實習-->
+          <div>
+            <h4>製片</h4>
+            <div>中央大學物理系/形象宣傳影片</div>
+            <div>2014.06 – 2014.12</div>
+          </div>
+          <ul>
+            <li>規劃拍片時程</li>
+            <li>協商場地、邀請受訪者…等</li>
+            <li>拍攝當天擔任收音的工作</li>
+            <li>成品為2支5分鐘影片</li>            
+          </ul>
+        </li>
+      </ol>
+    </li>
+
+  <!-- 經歷結束 -->
+  </ul>
+
+<ul>
+  <!-- 經歷等等 -->
+    <li>
+      <h3>教育程度</h3>      
+        <div>國立中央大學資訊管理學系</div>
+        <div>2012 - 2016</div>
+        <div>臺北市市立景美女子高級中學</div>
+        <div>2009 - 2012</div>
+      </ol>
+    </li>
+
+
+  <!-- 經歷結束 -->
+  </ul>
+
 
   <footer>Contact me!</footer>
 
