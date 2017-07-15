@@ -16,13 +16,13 @@
       font-family: "source-han-sans-traditional", sans-serif, "微軟正黑體";
     }
 
-/*圖片設定*/
+    /*圖片設定*/
     img {
       max-width: 100%;
       display: block;
     }
 
-/*header設定*/
+    /*header設定*/
     header{
       box-sizing: border-box;
       
@@ -31,7 +31,7 @@
       padding: 2em;
       height: 48vw;
 
-      font-size: 1.5em;
+      font-size: 1.2em;
       text-align: center;
       color: white;
       text-shadow: 0 0 10px black;           
@@ -51,11 +51,14 @@
 
     p{
       color: black;
+    }    
+
+    div{      
     }
     .intro{
-      background-color: black;
-      color: white;
+      padding: 20px;
     }
+
 
     footer{
       background-color: blue; 
@@ -75,12 +78,19 @@
     <div>Start</div>
   </header>
 
-  <p class="intro">今年23歲，不知道要打甚麼所以先這樣XD</p>
-  
-  <h2>Experience</h2>  
-  <ul>
-  <!-- 經歷等等 -->
-    <li>
+  <!-- About me -->
+  <div class="intro">
+    <h2>About me</h2>
+    <p>今年23歲，對事物都充滿好奇心的雙子座:)</p>
+    <p>學生期間積極參與各式活動，比起英雄主義，更喜歡Teamwork中與夥伴一同完成任務的成就感，認為「企劃」本身含有豐富的知識和經驗價值生涯規劃以企劃、顧問為主要的努力方向。</p>
+    <p>常喜歡看漫畫、休閒讀物、打手遊，平常也與朋友玩密室逃脫、桌遊，希望未來有機會一個人遊台灣~</p>
+  </div>
+
+  <!-- Experience -->
+  <div>
+    <h2>Experience</h2>  
+    <ul>    
+      <li>
       <h3>工作經歷</h3>      
       <ol>
         <li>
@@ -98,14 +108,14 @@
           </ul>          
         </li>        
       </ol>
-    </li>
+      </li>
 
-    <!-- 學生經歷 -->
-    <li>
+      <!-- 學生經歷 -->
+      <li>
       <h3>學生實習</h3>
       <ol>
+        <!-- 實習1-->
         <li>
-          <!-- 第一份實習-->
           <div>
             <h4>公關</h4>
             <div>○○雜誌</div>
@@ -117,8 +127,8 @@
             <li>成功洽談與Uber合作</li>
           </ul>
         </li>
+        <!-- 實習2 -->
         <li>
-          <!-- 第二份實習-->
           <div>
             <h4>PM</h4>
             <div>○○○○資訊公司</div>
@@ -129,8 +139,8 @@
             <li>專案企畫提案</li>            
           </ul>
         </li>
+        <!-- 實習3 -->
         <li>
-          <!-- 第三份實習-->
           <div>
             <h4>實習生</h4>
             <div>台灣董事學會/種子人才培訓計畫</div>
@@ -144,8 +154,8 @@
             <li>期末成果分享主講人</li>
           </ul>
         </li>
+        <!-- 實習4 -->
         <li>
-          <!-- 第四份實習-->
           <div>
             <h4>計畫成員</h4>
             <div>台灣微軟/點亮新世代-青年逐夢計畫</div>
@@ -159,12 +169,12 @@
           </ul>
         </li>        
       </ol>
-    </li>
+      </li>
 
-    <!-- 活動經驗 -->
-    <li>
-      <h3>活動經驗</h3>
-      <ol>
+      <!-- 活動經驗 -->
+      <li>
+        <h3>活動經驗</h3>
+        <ol>
         <li>
           <div>
             <h4>執秘</h4>
@@ -177,8 +187,7 @@
             <li>監督活動流程規劃</li> 
           </ul>
         </li>
-        <li>
-          <!-- 第二份實習-->
+        <li>          
           <div>
             <h4>製片</h4>
             <div>中央大學物理系/形象宣傳影片</div>
@@ -191,30 +200,34 @@
             <li>成品為2支5分鐘影片</li>            
           </ul>
         </li>
-      </ol>
-    </li>
+        </ol>
+      </li>
 
-  <!-- 經歷結束 -->
-  </ul>
-
-<ul>
-  <!-- 經歷等等 -->
-    <li>
+    </ul>
+    
+    <ul>  
+    <!-- 教育程度 -->
+      <li>    
       <h3>教育程度</h3>      
-        <div>國立中央大學資訊管理學系</div>
-        <div>2012 - 2016</div>
-        <div>臺北市市立景美女子高級中學</div>
-        <div>2009 - 2012</div>
-      </ol>
-    </li>
+      <div>國立中央大學資訊管理學系</div>
+      <div>2012 - 2016</div>
+      <div>臺北市市立景美女子高級中學</div>
+      <div>2009 - 2012</div>      
+      </li>
 
+    </ul>
 
-  <!-- 經歷結束 -->
-  </ul>
+  <!-- Contact me + copyright -->
+  <footer>
+    <div>
+      <h2>Contact me</h2>
+      <p>這邊要放一個email的icon</p>
+      <p>juliehsu40@gmail.com</p>
+    </div>
+    
+    <div class="complete-time">Made by Julie Hsu 2017.7.15</div>
 
-
-  <footer>Contact me!</footer>
-
+  </footer>
 
 </body>
 </html>
