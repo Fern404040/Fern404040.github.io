@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="shortcut icon" type="image/x-icon" href="Level_40_icon.png">
+  <link rel="shortcut icon" type="image/x-icon" href="images/helvetica-number-40.png">
   <title>徐士林Julie 履歷</title>
   <style>
     /*全*/
@@ -25,6 +25,44 @@
 
     .complete-time{
       text-align: right;
+    }
+
+    .ex{
+      list-style: none;
+    }
+
+    .ex > li{
+      position: relative;
+      padding: 10px 0 10px 35px;      
+    }
+
+    .ex > li::before{
+      content: "";
+      position: absolute;
+      height: 10px;
+      width: 10px;
+      background-color: black;
+      border-radius: 50%;
+      top: 18px;
+      left: 20px;
+    }
+
+    .ex >li::after{
+      content: "";
+      position: absolute;
+      width: 3px;
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 23px;
+    }
+
+    .ex >li:first-child::after{
+      top: 20px;
+    }
+
+    .ex >li:last-child::after{
+      height: 20px;    
     }
 
     /*header設定*/
@@ -94,7 +132,7 @@
   <!-- Experience -->
   <div>
     <h2>Experience</h2>  
-    <ul>    
+    <ul class="ex">    
       <li>
       <h3>工作經歷</h3><!--工作工作工作工作工作工作工作-->      
       <ol>
